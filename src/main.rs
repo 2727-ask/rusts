@@ -2,6 +2,8 @@ mod var;
 mod data_types;
 mod conditions;
 mod loops;
+mod match_me;
+mod structs;
 
 
 fn main() {
@@ -10,4 +12,6 @@ fn main() {
     data_types::data_types();
     conditions::conditions();
     loops::run_loop();
+    match_me::match_me();
+    structs::structs();
 }
